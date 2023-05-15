@@ -1,25 +1,50 @@
 <!DOCTYPE html>
 <html>
 
+<style>
+
+.halves{
+    width: calc(50% - 8vw);
+    float: left;
+    border: 1vw ridge rgb(153, 132, 132);
+    padding: 2vw;
+    text-align: left;
+}
+
+.accueil{
+    vertical-align: top;
+}
+
+a{
+    text-decoration: none;
+    color:brown;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: purple;
+}
+
+</style>
+
 
 <head>
     <title> Eugene Bailliet - Me </title>
 </head>
 
 <body style="height: 200px">
+
+
     <p> ce site est en cours de construction </p>
-    <table style="width: 100%; height: 100%">
-        <th style="height: 100%">
-            <td style="width: 50%; height: 100%; border: 1px solid black; vertical-align: top">
-                <p>Eugène Bailliet: Vie pro et passé scolaire </p>
-                <a href="Cv-en-ligne.html">Cv en ligne</a>
-            </td>
-            <td style="width: 50%; height: 100%; border: 1px solid black; vertical-align: top">
-                <p>Cazu: Jeux videos et passions persos</p>
-                <a href="projets-persos.html"> <br> Projets personnels en informatique</a>
-            </td>
-        </th>
-    </table>
+
+    <div class="halves">
+        <p class="accueil">Eugène Bailliet: Vie pro et passé scolaire </p>
+        <a href="Cv-en-ligne.html">Cv en ligne</a>
+    </div>
+    <div class="halves">
+        <p class="accueil">Cazu: Jeux videos et passions persos</p>
+        <a href="projets-persos.html"> Projets personnels en informatique</a>
+    </div>
 
 </body>
 
