@@ -3,74 +3,50 @@
 
 <head>
     <title> Mes projets persos </title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 
-<style>
-
-div p.deroulant{
-    display: none;
-}
-
-a{
-    text-decoration: none;
-    color:brown
-}
-
-a:hover{
-    text-decoration: underline;
-    color: purple;
-}
-
-a:hover ~ p.deroulant{
-    display: block;
-}
-
-p.deroulant:hover{
-    display: block;
-}
-
-p.mystere{
-    display: none;
-}
-
-p:hover ~ p.mystere{
-    display: inline;
-    float: left;
-}
-
-p.parent{
-    float: left;
-    padding-right: 0px;
-}
-
-</style>
-
-<body>
-    <div>
-        <p> 
+<body class="projets_persos">
+    <div class="intro">
+        <p class="intro">
             Voilà mes projets persos en Python, C et bien plus encore, qui n'ont ni début censé, ni fin concrète!
             <br>
         </p>
     </div>
-    <div>
-        <a href = "https://github.com/Cazu291/simsimi"> une copie de simsimi <br></a>
-        <p class="deroulant"> Mon premier projet a été, quand j'ai découvert l'édition de fichiers depuis python, de recréer une copie de simsimi (une application téléphone qui avait étée créée pour apprendre de ce que lui disent les gens, elle avait fini par être grossière, on se demande pourquoi...). Cette version est primitive, elle reconnaît une syntaxe exacte et non une approchée, comme le faisait simsimi. </p>
+    <div class="rounded">
+        <input class="deroulant" type="checkbox" id="simsimibox"><label for="simsimibox" class="deroulant">Projet simsimi</label><i class="glyphicon glyphicon-chevron-left"></i>
+        <div class="deroulant">
+            <a href = "https://github.com/Cazu291/simsimi"> La page github de mon simsimi <br></a>
+            <p> Mon premier projet a été, quand j'ai découvert l'édition de fichiers depuis python, de recréer une copie de simsimi (une application téléphone qui avait étée créée pour apprendre de ce que lui disent les gens, elle avait fini par être grossière, on se demande pourquoi...). Cette version est primitive, elle reconnaît une syntaxe exacte et non une approchée, comme le faisait simsimi. </p>
+        </div>
     </div>
-    <div>
-        <a href="https://github.com/Cazu291/Shooterpython"> Shooter random</a>
-        <p class="deroulant">Le suivant est un projet qui m'a tenu à coeur, c'est le projet de mon premier jeu vidéo. Malheureusement j'ai surtout suivi un tutoriel à la lettre à ce moment. Mais cela valait quand même la peine, surtout pour pouvoir développer des personnages et leur donner des capacités. En tant que fan d'overwatch, ce fût d'ailleurs ma première action dès que j'ai été capable de comprendre ce que je faisais.
-            <br>Tout mis bout à bout, ce projet doit comptabiliser une quarantaine d'heures de programmation, réparties sur 3 semaines.
-        </p>
+    <div class="rounded">
+        <input class="deroulant" type="checkbox" id="shooterpybox"><label for="shooterpybox" class="deroulant">Shooter python</label><i class="glyphicon glyphicon-chevron-left"></i>
+        <div class="deroulant">
+            <a href="https://github.com/Cazu291/Shooterpython"> Derrière les coulisses</a>
+            <p>Le suivant est un projet qui m'a tenu à coeur, c'est le projet de mon premier jeu vidéo. Malheureusement j'ai surtout suivi un tutoriel à la lettre à ce moment. Mais cela valait quand même la peine, surtout pour pouvoir développer des personnages et leur donner des capacités. En tant que fan d'overwatch, ce fût d'ailleurs ma première action dès que j'ai été capable de comprendre ce que je faisais.
+                <br>Tout mis bout à bout, ce projet doit comptabiliser une quarantaine d'heures de programmation, réparties sur 3 semaines.
+            </p>
+        </div>
     </div>
-    <div>
-        <a href ="https://github.com/Cazu291/tetris"> Tetris </a>
-        <p class="deroulant">Ensuite, un des derniers projets sur lequel j'ai bossé récemment a été de recréer un tetris en C. Bien sûr l'affichage se fait dans le terminal.</p>
+    <div class="rounded">
+        <input class="deroulant" type="checkbox" id="tetrisbox"><label for="tetrisbox" class="deroulant">Tetris en C</label><i class="glyphicon glyphicon-chevron-left"></i>
+        <div class="deroulant">
+            <a href ="https://github.com/Cazu291/tetris"> Redécouvrir ce classique sur github </a>
+            <p>Ensuite, un des derniers projets sur lequel j'ai bossé récemment a été de recréer un tetris en C. Bien sûr l'affichage se fait dans le terminal.</p>
+        </div>
     </div>
-    <div>
-        <a href="https://github.com/Cazu291/Cazu291.github.io">Mystère mystère</a>
-        <p class="deroulant">Pour finir, un projet que vous reconnaitrez sûrement.</p>
+    <div class="rounded">
+        <input class="deroulant" type="checkbox" id="websitebox"><label for="websitebox" class="deroulant">Mystère mystère</label><i class="glyphicon glyphicon-chevron-left"></i>
+        <div class="deroulant">
+            <a href="https://github.com/Cazu291/Cazu291.github.io">Continuer le mystère sur github</a>
+            <p>Pour finir, un projet que vous reconnaitrez sûrement.</p>
+        </div>
     </div>
-    <p class="parent"> C'est tout <p class="mystere">, pour le moment...</p></p>
+    <div class="outro">
+        <p class="parent"> C'est tout <p class="mystere">, pour le moment...</p></p>
+    </div>
 
 </body>
 
