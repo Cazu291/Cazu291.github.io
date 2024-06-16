@@ -19,7 +19,7 @@ body{
 
 .halves[id="gaming"]{
     background-image: url(https://cazu291.github.io/montagne.jpg);
-    width: 43.645vw;
+    width: 50vw; /*43.645*/
     height: 100vh;
     margin: 10vm;
     align-content: center;
@@ -27,7 +27,7 @@ body{
 
 .halves[id="work"]{
     background-image: url(https://cazu291.github.io/code.jpg);
-    width: 43.645vw; /*44.175*/
+    width: 50vw;
     height: 100vh;
     margin: 10vm;
     align-content: center;
