@@ -19,14 +19,16 @@ body{
 
 .halves[id="gaming"]{
     background-image: url(https://cazu291.github.io/junkrat.jpeg);
-    width: 42vw;
-    height: 100vw;
+    width: 43.645vw;
+    height: 100vh;
+    margin: 10vm;
+    align-content: center;
 }
 
 .halves[id="work"]{
     background-image: url(https://cazu291.github.io/code.jpg);
-    width: 42vw; /*44.175*/
-    height: 100vw;
+    width: 43.645vw; /*44.175*/
+    height: 100vh;
     margin: 10vm;
     align-content: center;
 }
@@ -38,7 +40,7 @@ body{
     width: 32vw;
     text-shadow: 0.1em 0.1em 0em black, -0.05em -0.05em 0.4em black;
     margin: auto;
-    margin-top: 100%;
+    margin-top: 50vh;
     font-size:30px;
 }
 
@@ -56,35 +58,6 @@ body{
 
 .halves[id="work"]>p.accueil_second>a:hover{
     color: rgb(184, 150, 0);
-}
-
-.halves[id="work"]>p.accueil{
-    /*    background-color: white; */
-    width: 32vw;
-    text-shadow: 0.1em 0.1em 0em black, -0.05em -0.05em 0.4em black;
-    margin: auto;
-    margin-top: 100%;
-    font-size:30px;
-}
-    
-.halves[id="work"]>p.accueil_second{
-    /*    background-color: white; */
-    width: 32vw;
-    text-shadow: 0.1em 0.1em 0em black, -0.05em -0.05em 0.4em black;
-    margin: auto;
-    font-size:30px;
-}
-    
-.halves[id="work"]>p.accueil_second>a{
-    color: rgb(255, 217, 4);
-}
-    
-.halves[id="work"]>p.accueil_second>a:hover{
-    color: rgb(184, 150, 0);
-}
-
-.halves[id="work"]>p>span{
-    color: white;
 }
 
 .halves[id="work"]>p>span{
@@ -98,7 +71,7 @@ body{
     width: 32vw;
     text-shadow: 0.1em 0.1em 0em black, -0.05em -0.05em 0.4em black;
     margin: auto;
-    margin-top: 100%;
+    margin-top: 50vh;
     font-size:30px
 }
     
@@ -107,7 +80,7 @@ body{
     width: 32vw;
     text-shadow: 0.1em 0.1em 0em black, -0.05em -0.05em 0.4em black;
     margin: auto;
-    font-size:25px;
+    font-size: 25px;
     margin-top: 1vw;
 }
 
