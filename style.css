@@ -18,13 +18,13 @@ body{
 }
 
 .halves[id="gaming"]{
-    background-image: url(junkrat.jpeg);
+    background-image: url(https://cazu291.github.io/junkrat.jpeg);
     width: 44.175vw;
     height: 100vw;
 }
 
 .halves[id="work"]{
-    background-image: url(code.jpg);
+    background-image: url(https://cazu291.github.io/code.jpg);
     width: 44.175vw;
     height: 100vw;
     margin: 10vm;
