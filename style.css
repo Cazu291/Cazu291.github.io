@@ -12,13 +12,13 @@ body{
     max-width: calc(50%-8vw);
     min-width: 40%;
     float: left;
-    border: 1vw ridge rgb(153, 132, 132);
-    padding: 2vw;
+    border: 0vw ridge rgb(153, 132, 132);
+    padding: 0vw;
     text-align: left;
 }
 
 .halves[id="gaming"]{
-    background-image: url(https://cazu291.github.io/junkrat.jpeg);
+    background-image: url(https://cazu291.github.io/montagne.jpeg);
     width: 43.645vw;
     height: 100vh;
     margin: 10vm;
