@@ -1,9 +1,12 @@
+/*page d'accueil*/
+
 body{
     margin: 0px;
     padding: 0px;
     width: 100%;
 }
 
+/*moitiés de l'écran*/
 
 .halves{
     max-width: calc(50%-8vw);
@@ -14,18 +17,125 @@ body{
     text-align: left;
 }
 
+.halves[id="gaming"]{
+    background-image: url(junkrat.jpeg);
+    width: 44.175vw;
+    height: 100vw;
+}
+
+.halves[id="work"]{
+    background-image: url(code.jpg);
+    width: 44.175vw;
+    height: 100vw;
+    margin: 10vm;
+    align-content: center;
+}
+
+/*pour le texte dans la partie travail */
+
+.halves[id="work"]>p.accueil{
+/*    background-color: white; */
+    width: 32vw;
+    text-shadow: 0.1em 0.1em 0em black, -0.05em -0.05em 0.4em black;
+    margin: auto;
+    margin-top: 100%;
+    font-size:30px;
+}
+
+.halves[id="work"]>p.accueil_second{
+    /*    background-color: white; */
+    width: 32vw;
+    text-shadow: 0.1em 0.1em 0em black, -0.05em -0.05em 0.4em black;
+    margin: auto;
+    font-size:30px;
+}
+
+.halves[id="work"]>p.accueil_second>a{
+    color: rgb(255, 217, 4);
+}
+
+.halves[id="work"]>p.accueil_second>a:hover{
+    color: rgb(184, 150, 0);
+}
+
+.halves[id="work"]>p.accueil{
+    /*    background-color: white; */
+    width: 32vw;
+    text-shadow: 0.1em 0.1em 0em black, -0.05em -0.05em 0.4em black;
+    margin: auto;
+    margin-top: 100%;
+    font-size:30px;
+}
+    
+.halves[id="work"]>p.accueil_second{
+    /*    background-color: white; */
+    width: 32vw;
+    text-shadow: 0.1em 0.1em 0em black, -0.05em -0.05em 0.4em black;
+    margin: auto;
+    font-size:30px;
+}
+    
+.halves[id="work"]>p.accueil_second>a{
+    color: rgb(255, 217, 4);
+}
+    
+.halves[id="work"]>p.accueil_second>a:hover{
+    color: rgb(184, 150, 0);
+}
+
+.halves[id="work"]>p>span{
+    color: white;
+}
+
+.halves[id="work"]>p>span{
+    color: white;
+}
+
+/*On fait pareil partie perso */
+
+.halves[id="gaming"]>p.accueil{
+    /*    background-color: white; */
+    width: 32vw;
+    text-shadow: 0.1em 0.1em 0em black, -0.05em -0.05em 0.4em black;
+    margin: auto;
+    margin-top: 100%;
+    font-size:30px
+}
+    
+.halves[id="gaming"]>p.accueil_second{
+    /*    background-color: white; */
+    width: 32vw;
+    text-shadow: 0.1em 0.1em 0em black, -0.05em -0.05em 0.4em black;
+    margin: auto;
+    font-size:25px;
+    margin-top: 1vw;
+}
+
+.halves[id="gaming"]>p.accueil_second>a{
+    color: rgb(255, 217, 4);
+}
+
+.halves[id="gaming"]>p.accueil_second>a:hover{
+    color: rgb(184, 150, 0);
+}
+    
+.halves[id="gaming"]>p>span{
+    color: white;
+}
+
+/*Textes pour sous-pages*/
 
 .accueil{
     vertical-align: top;
 }
 
-div p.deroulant{
+div ~ p.deroulant{
     display: none;
 }
 
 a{
     text-decoration: none;
-    color:brown
+    color:brown;
 }
 
 a:hover{
